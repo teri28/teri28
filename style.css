@@ -15,7 +15,7 @@ body{
 /* ============================================= */
 /* ヘッダー  */
 header{
-    background-image: url(images/gnavi_back2.png);
+    background-image: url(gnavi_back2.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
     height: 170px;
@@ -32,7 +32,7 @@ header{
     margin: 30px 0px 30px;
 }
 .gnavi1:hover{
-    background-image: url(images/gnavi_click_1.png);
+    background-image: url(gnavi_click_1.png);
     background-repeat: no-repeat;
 }
 .gnavi2{
@@ -40,15 +40,15 @@ header{
     
 }
 .gnavi2:hover{
-    background-image: url(images/gnavi_click_2.png);
+    background-image: url(gnavi_click_2.png);
     background-repeat: no-repeat;
 }
 .gnavi3:hover{
-    background-image: url(images/gnavi_click_3.png);
+    background-image: url(gnavi_click_3.png);
     background-repeat: no-repeat;
 }
 .gnavi4:hover{
-    background-image: url(images/gnavi_click_4.png);
+    background-image: url(gnavi_click_4.png);
     background-repeat: no-repeat;
 }
 h1{
@@ -92,7 +92,7 @@ h1{
 /* ============================================= */
 /* コンセプト */
 #concept_wrapper{
-    background-image: url(images/concet_line.png);
+    background-image: url(concet_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
@@ -165,7 +165,7 @@ h3{
 /* ============================================= */
 /* メニュー */
 #menu_wrapper{
-    background-image: url(images/menu_line.png);
+    background-image: url(menu_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
@@ -192,7 +192,7 @@ h3{
 	opacity: 0.4;
 }
 .arrow-text .slick-arrow_prev:hover{
-    background:url(images/more_left_click.png);
+    background:url(more_left_click.png);
 	opacity: 0.8;
 }
 
@@ -201,13 +201,13 @@ h3{
 	opacity: 0.4;
 }
 .arrow-text .slick-arrow_next:hover{
-    background:url(images/more_right_click.png);
+    background:url(more_right_click.png);
     opacity: 0.8;
 }
 /* ============================================= */
 /* マップ */
 #map_wrapper{
-    background-image: url(images/map_line.png);
+    background-image: url(map_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
@@ -456,7 +456,7 @@ footer{
 
     /* コンセプト */
 #concept_wrapper{
-    background-image: url(images/concet_line.png);
+    background-image: url(concet_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
     max-width: 100%;
@@ -520,7 +520,7 @@ h3{
 /* ============================================= */
 /* メニュー */
 #menu_wrapper{
-    background-image: url(images/menu_line.png);
+    background-image: url(menu_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
@@ -547,7 +547,7 @@ h3{
         opacity: 0.4;
 }
 .arrow-text .slick-arrow_prev:hover{
-    background:url(images/more_left_click.png);
+    background:url(more_left_click.png);
         opacity: 0.8;
 }
 
@@ -556,13 +556,13 @@ h3{
         opacity: 0.4;
 }
 .arrow-text .slick-arrow_next:hover{
-    background:url(images/more_right_click.png);
+    background:url(more_right_click.png);
     opacity: 0.8;
 }
 /* ============================================= */
 /* マップ */
 #map_wrapper{
-    background-image: url(images/map_line.png);
+    background-image: url(map_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
