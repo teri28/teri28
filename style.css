@@ -296,18 +296,18 @@ footer{
 @media only screen and (max-width: 390px) {
     body {
         background-color: #eded16;
+		font-size: 15px;
     }
 	header{
-    background-image: url(gnavi_back2.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    height: 170px;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-}
+    	background-position: 50% 0;
+    	height: 250px;
+    	position: fixed;
+    	z-index: 10;
+		max-width: 100%;
+		background-size: contain;
+	}
 	.logo{
-	max-width: 24px;
+		max-width: 100%;
     	margin: auto;
 	    position: relative;
     	bottom: -110px;
@@ -340,8 +340,10 @@ footer{
 		list-style: none;
     }
     .nav_item1,.nav_item2,.nav_item3,.nav_item4 {
-      text-align: left;
-      padding: 0 14px;
+		text-align: left;
+		padding: 0 14px;
+		max-width: 100%;
+		background-size: contain;
     }
     .hamburger_border {
       position: absolute;
@@ -352,13 +354,13 @@ footer{
       transition: all .6s;
     }
     .hamburger_border_top {
-      top: 14px;
+      top: 5px;
     }
     .hamburger_border_center {
-      top: 20px;
+      top: 11px;
     }
     .hamburger_border_bottom {
-      top: 26px;
+      top: 17px;
     }
     .black_bg {
       position: fixed;
@@ -413,7 +415,7 @@ footer{
 
     /* MV */
     #mv{
-        width: 700px;
+        max-width: 100%;
         height: auto;
         padding-top: 100px;
         position: relative;
@@ -428,21 +430,17 @@ footer{
     background-repeat: no-repeat;
     background-position: 50% 0%;
     max-width: 100%;
+	background-size: contain;
 }
 #wrapper1,#wrapper2,#wrapper3{
     display: flex;
     max-width: 100%;
     margin: auto;
 }
-.concept_image{
+.concept_image,.concept_image2,.concept_image3{
     background-color: rgb(17, 235, 235);
     max-width: 50%;
-    margin: 50px 30px 50px;
-}
-.concept_image2{
-    background-color: rgb(17, 235, 235);
-    max-width: 50%;
-    margin: 20px 30px 50px;
+    margin: 50px 20px 50px;
 }
 h3{
     background-color: aquamarine;
@@ -491,6 +489,8 @@ h3{
     background-image: url(menu_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
+    max-width: 100%;
+	background-size: contain;
 }
 .text2{
     text-align: center;
@@ -533,6 +533,8 @@ h3{
     background-image: url(map_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
+    max-width: 100%;
+	background-size: contain;
 }
 table{
     margin:50px auto 50px;
