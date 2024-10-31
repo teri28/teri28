@@ -297,8 +297,17 @@ footer{
     body {
         background-color: #eded16;
     }
+	header{
+    background-image: url(gnavi_back2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 170px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
 	.logo{
-		width: 240px;
+	max-width: 100%;
     	margin: auto;
 	    position: relative;
     	bottom: -110px;
