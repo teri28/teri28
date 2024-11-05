@@ -15,7 +15,7 @@ body{
 /* ============================================= */
 /* ヘッダー  */
 header{
-    background-image: url(gnavi_back2.png);
+    background-image: url(images/gnavi_back2.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
     height: 170px;
@@ -32,7 +32,7 @@ header{
     margin: 30px 0px 30px;
 }
 .gnavi1:hover{
-    background-image: url(gnavi_click_1.png);
+    background-image: url(images/gnavi_click_1.png);
     background-repeat: no-repeat;
 }
 .gnavi2{
@@ -40,38 +40,31 @@ header{
     
 }
 .gnavi2:hover{
-    background-image: url(gnavi_click_2.png);
+    background-image: url(images/gnavi_click_2.png);
     background-repeat: no-repeat;
 }
 .gnavi3:hover{
-    background-image: url(gnavi_click_3.png);
+    background-image: url(images/gnavi_click_3.png);
     background-repeat: no-repeat;
 }
 .gnavi4:hover{
-    background-image: url(gnavi_click_4.png);
+    background-image: url(images/gnavi_click_4.png);
     background-repeat: no-repeat;
 }
 h1{
     width: 240px;
     margin: auto;
     position: relative;
-    bottom: 105px
+    bottom: 90px;
 }
 /* ============================================= */
 /* 右CV */
 .side_menu{
-    position: absolute;
-    right: 0;
-    top: 200px;
     z-index: 10;
     }
-.menu01{
-    margin-bottom: 10px;
-}
 #cv1{
-    width: 565px;
+    max-width: 100%;
     display: flex;
-    position: absolute;
     right: 0px;
     top: 100px;
     position: fixed;
@@ -92,7 +85,7 @@ h1{
 /* ============================================= */
 /* コンセプト */
 #concept_wrapper{
-    background-image: url(concet_line.png);
+    background-image: url(images/concet_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
@@ -165,7 +158,7 @@ h3{
 /* ============================================= */
 /* メニュー */
 #menu_wrapper{
-    background-image: url(menu_line.png);
+    background-image: url(images/menu_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
@@ -192,7 +185,7 @@ h3{
 	opacity: 0.4;
 }
 .arrow-text .slick-arrow_prev:hover{
-    background:url(more_left_click.png);
+    background:url(images/more_left_click.png);
 	opacity: 0.8;
 }
 
@@ -201,13 +194,13 @@ h3{
 	opacity: 0.4;
 }
 .arrow-text .slick-arrow_next:hover{
-    background:url(more_right_click.png);
+    background:url(images/more_right_click.png);
     opacity: 0.8;
 }
 /* ============================================= */
 /* マップ */
 #map_wrapper{
-    background-image: url(map_line.png);
+    background-image: url(images/map_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
@@ -293,24 +286,24 @@ footer{
 /* ============================================= */
 /* ============================================= */
 /* SP */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
     body {
         background-color: #eded16;
-		font-size: 15px;
+		font-size: 12px;
+		max-width: 390px
     }
 	header{
-    	background-position: 50% 0;
-    	height: 250px;
+		background-image: url(images/gnavi_back_sp.png);
     	position: fixed;
     	z-index: 10;
-		max-width: 100%;
-		background-size: contain;
+		background-position: bottom;
+		height: 80px;
 	}
-	.logo{
-		max-width: 100%;
-    	margin: auto;
+	.logo img{
+		max-width: 45%;
+    	margin: 0 auto 0 65px;
 	    position: relative;
-    	bottom: -110px;
+    	bottom: -90px;
 	}
     .nav {
       position: fixed;
@@ -342,12 +335,12 @@ footer{
     .nav_item1,.nav_item2,.nav_item3,.nav_item4 {
 		text-align: left;
 		padding: 0 14px;
-		max-width: 100%;
+		max-width: 50%;
 		background-size: contain;
     }
     .hamburger_border {
       position: absolute;
-      left: 11px;
+      left: 20px;
       width: 18px;
       height: 2px;
       background-color: #ffffff;
@@ -396,68 +389,84 @@ footer{
       transform: rotate(-45deg);
       top: 20px;
     }
-
+	
     /* 右CV */
-    .side_menu{
-        position: relative;
-        z-index: 1;
-        }
-    #cv1{
-        width: 273px;
-        display: block;
-        position: absolute;
-        right: 0px;
-        top: 100px;
+	.side_menu{
+    	z-index: 10;
     }
-    #cv1_right{
-        margin-left: 0;
-    }
-
+	.menu01{
+    	margin-bottom: 0;
+	}
+	#cv1{
+    	max-width: 30%;
+    	display: block;
+    	position: absolute;
+    	right: 0;
+    	top: 40px;
+    	position: fixed;
+	}
+	#cv1 img{
+		max-width: 100%;
+	}
+	#cv1_right{
+    	margin-left: 0;
+	}
+	
     /* MV */
     #mv{
         max-width: 100%;
         height: auto;
-        padding-top: 100px;
+        padding-top: 0;
         position: relative;
-        bottom: 10px;
+        bottom: -35px;
+		left: 0%;
         z-index: 1;
     }
-
+	#mv img{
+		max-width: 100%;
+		margin: 0 auto 0;
+	}
 
     /* コンセプト */
-#concept_wrapper{
-    background-image: url(concet_line.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    max-width: 100%;
-	background-size: contain;
-}
-#wrapper1,#wrapper2,#wrapper3{
-    display: flex;
-    max-width: 100%;
-    margin: auto;
-}
-.concept_image,.concept_image2,.concept_image3{
-    background-color: rgb(17, 235, 235);
-    max-width: 50%;
-    margin: 50px 20px 50px;
-}
-h3{
-    background-color: aquamarine;
-    max-width: 50%;
-    text-align: center;
-    margin: 110px 10px 20px;
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: bold;
-}
+	#concept_wrapper{
+    	background-image: url(images/concet_line.png);
+    	background-repeat: no-repeat;
+    	background-position: 50% 0%;
+	    max-width: 100%;
+		background-size: contain;
+		padding-top: -50px;
+	}
+		h2{
+		font-size: 15px;
+	    margin: 50px auto 50px;
+    	padding-top: 50px;
+	}
+	#wrapper1,#wrapper2,#wrapper3{
+    	display: flex;
+	    max-width: 100%;
+    	margin: auto;
+	}
+	.concept_image,.concept_image2,.concept_image3{
+    	background-color: rgb(17, 235, 235);
+	    max-width: 50%;
+    	margin: 50px 20px 50px;
+	}
+	h3{
+    	background-color: aquamarine;
+	    max-width: 50%;
+	    text-align: center;
+    	margin: 110px 10px 20px;
+	    color: #ffffff;
+    	font-size: 14px;
+	    font-weight: bold;
+	}
 .text{
     background-color: blue;
     max-width: 50%;
     text-align: center;
     margin: 30px 10px 20px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 12px;
 }
 .more{
     width: 358px;
@@ -486,7 +495,7 @@ h3{
 /* ============================================= */
 /* メニュー */
 #menu_wrapper{
-    background-image: url(menu_line.png);
+    background-image: url(images/menu_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
     max-width: 100%;
@@ -515,7 +524,7 @@ h3{
         opacity: 0.4;
 }
 .arrow-text .slick-arrow_prev:hover{
-    background:url(more_left_click.png);
+    background:url(images/more_left_click.png);
         opacity: 0.8;
 }
 
@@ -524,13 +533,13 @@ h3{
         opacity: 0.4;
 }
 .arrow-text .slick-arrow_next:hover{
-    background:url(more_right_click.png);
+    background:url(images/more_right_click.png);
     opacity: 0.8;
 }
 /* ============================================= */
 /* マップ */
 #map_wrapper{
-    background-image: url(map_line.png);
+    background-image: url(images/map_line.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
     max-width: 100%;
