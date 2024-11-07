@@ -435,7 +435,7 @@ footer{
 		padding-top: -50px;
 	}
 		h2{
-		font-size: 16px;
+		font-size: 15px;
 	    margin: 50px auto 20px;
     	padding-top: 40px;
 	}
@@ -454,7 +454,7 @@ footer{
 	    text-align: center;
     	margin: 20px 10px 10px 10px;
 	    color: #ffffff;
-    	font-size: 15px;
+    	font-size: 13px;
 	    font-weight: bold;
 	}
 	.text1{
@@ -470,7 +470,7 @@ footer{
 	    text-align: center;
     	margin: 20px 10px 10px 50px;
 	    color: #ffffff;
-    	font-size: 15px;
+    	font-size: 13px;
 	    font-weight: bold;
 	}
 	.text2{
@@ -478,7 +478,7 @@ footer{
     	text-align: center;
     	margin: 10px 20px 0;
     	color: #ffffff;
-    	font-size: 12px;
+    	font-size: 11px;
 	}
 	.concept_image2{
 	    max-width: 40%;
@@ -495,7 +495,7 @@ footer{
 	    text-align: center;
     	margin: 20px 10px 10px 10px;
 	    color: #ffffff;
-    	font-size: 15px;
+    	font-size: 13px;
 	    font-weight: bold;
 	}
 	.text3{
@@ -598,9 +598,9 @@ footer{
 	}
 	.map_text{
     	color: #ffffff;
-    	font-size: 11px;
+    	font-size: 13px;
 		text-align: center;
-		margin: 50px auto 20px;
+		margin: 30px auto 20px;
 	}
 	table{
     	margin:10px auto;
@@ -609,43 +609,47 @@ footer{
 	th{
 		background-color: aqua;
     	color: #ffffff;
-	    font-size: 12px;
-    	max-width: 100%;
-		margin: 10px 50px 0 10px;
-	    padding: 5px 15px;
+	    font-size: 11px;
+    	width: 35%;
+	    padding: 5px 40px;
     	text-align: left;
 }
 	td{
 		background-color: blueviolet;
     	color: #ffffff;
-    	font-size: 12px;
+    	font-size: 11px;
 	    max-width: 100%;
     	padding: 5px;
 	}
-	#map{
-		max-width: 100%;
+	.gmap iframe{
+		width: 400px;
+		height: 200px;
 	}
 
-/* フッター */
-footer{
-    background-color: #edc9e3;
-}
-#footer_wrapper{
-    width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
+	/* フッター */
+	footer{
+    	background-color: #edc9e3;
+	}
+	#footer_wrapper{
+    	width: 100%;
+	    margin: auto;
+    	display: block;
+	    justify-content: space-evenly;
 }
 #footer_left{
-    width: 300px;
+    /*width: 300px;*/
 }
 #footer_right{
     width: 800px;
 }
-#footer_logo{
-    width: 219px;
-    margin: 40px auto 30px;
-}
+	#footer_logo{
+		background-color: aqua;
+		width: 40%;
+		margin: 40px auto 30px;
+	}
+	#footer_logo img{
+    	width: 100%;
+	}
 #sns{
     display: flex;
     margin: 100px 0 30px;
@@ -679,7 +683,7 @@ footer{
 }
 #Copyright{
     text-align: center;
-    font-size: 13px;
+    font-size: 9px;
 }
 }
 /* ============================================= */
