@@ -282,7 +282,7 @@ footer{
 
 
 
-/* ============================================= */
+
 /* ============================================= */
 /* SP */
 @media only screen and (max-width: 430px) {
@@ -436,7 +436,7 @@ footer{
 	}
 		h2{
 		font-size: 16px;
-	    margin: 50px auto 50px;
+	    margin: 50px auto 20px;
     	padding-top: 40px;
 	}
 	#wrapper1,#wrapper2,#wrapper3{
@@ -452,7 +452,7 @@ footer{
 	#title1{
 	    max-width: 30%;
 	    text-align: center;
-    	margin: 40px 10px 20px;
+    	margin: 20px 10px 10px 10px;
 	    color: #ffffff;
     	font-size: 15px;
 	    font-weight: bold;
@@ -460,43 +460,40 @@ footer{
 	.text1{
     	max-width: 35%;
     	text-align: center;
-    	margin: 30px 0 20px;
+    	margin: 25px -5px 20px;
 		padding-bottom: 10px;
     	color: #ffffff;
     	font-size: 11px;
 	}
 	#title2{
-		background-color: aqua;
-	    max-width: 15%;
+	    max-width: 20%;
 	    text-align: center;
-    	margin: 30px 10px 10px 10px;
+    	margin: 20px 10px 10px 50px;
 	    color: #ffffff;
     	font-size: 15px;
 	    font-weight: bold;
 	}
 	.text2{
-    	background-color: blue;
 		max-width: 30%;
     	text-align: center;
-    	margin: 20px 0 20px 0px;
+    	margin: 10px 20px 0;
     	color: #ffffff;
     	font-size: 12px;
 	}
 	.concept_image2{
-		background-color: aqua;
 	    max-width: 40%;
 		max-height: 40%;
-    	margin: 20px 0 20px -50px;
+    	margin: 25px 0 20px -440px;
 	}
 	.concept_image3{
 	    max-width: 40%;
 		max-height: 40%;
-    	margin: 20px 0 20px 20px;
+    	margin: 10px 0 10px 20px;
 	}
-		#title3{
-	    max-width: 20%;
+	#title3{
+	    max-width: 30%;
 	    text-align: center;
-    	margin: 40px 30px 20px;
+    	margin: 20px 10px 10px 10px;
 	    color: #ffffff;
     	font-size: 15px;
 	    font-weight: bold;
@@ -504,53 +501,65 @@ footer{
 	.text3{
     	max-width: 30%;
     	text-align: center;
-    	margin: 30px 0 20px;
-		padding-bottom: 10px;
+    	margin: 30px 0 20px 15px;
     	color: #ffffff;
     	font-size: 11px;
 	}
 	.more{
     	max-width: 40%;
-    	margin: 100px auto 50px;
+    	margin: -5px auto 0
 	}
 	.more img{
     	max-width: 100%;
 	}
-/* ============================================= */
-/* 中間CV */
-#kanpai{
-    display: flex;
-    width: 463px;
-    margin: 0 auto 0;
-}
-#soju{
-    width: 358px;
-    margin: 100px auto 0 50px;
-}
-#ok{
-    margin: 300px 0 0 50px;
-}
-#cv2{
-    width: 1100px;
-    margin: 100px auto 100px;
-    display: flex;
-    position: relative;
-}
-/* ============================================= */
-/* メニュー */
-#menu_wrapper{
-    background-image: url(menu_line.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    max-width: 100%;
-	background-size: contain;
-}
-.text4{
-    text-align: center;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 50px 0 20px;
-}
+	/* 中間CV */
+	#kanpai{
+    	max-width: 100%;
+	    display: flex;
+    	margin: 0 auto 0;
+	}
+	#soju{
+		background-color: aqua;
+    	width: 100%;
+    	margin: 10px auto 10px 140px;
+	}
+	#soju img{
+		max-width: 100%;
+	}
+	#ok{
+		background-color: aqua;
+		width: 50%;
+	    margin: 60px 100px 0 0;
+	}
+	#ok img{
+		max-width: 100%;
+	}
+	#cv2{
+	    max-width: 100%;
+    	margin: 50px auto;
+	    display: flex;
+    	position: relative;
+	}
+	#cv2 li img{
+		max-width: 100%;
+	}
+	
+	/* メニュー */
+	#menu_wrapper{
+    	background-image: url(menu_line.png);
+	    background-repeat: no-repeat;
+    	background-position: 50% 0%;
+	    max-width: 100%;
+		background-size: contain;
+	}
+	.text4{
+		max-width: 80%;
+		margin: 0 auto 0;
+    	text-align: center;
+	    color: #ffffff;
+    	font-size: 12px;
+	    padding: 10px 0 10px;
+	}
 .arrow-text{
     margin: 250px 0 100px;
 }
@@ -580,32 +589,45 @@ footer{
     background:url(more_right_click.png);
     opacity: 0.8;
 }
-/* ============================================= */
-/* マップ */
-#map_wrapper{
-    background-image: url(map_line.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    max-width: 100%;
-	background-size: contain;
+	
+	/* マップ */
+	#map_wrapper{
+    	background-image: url(map_line.png);
+	    background-repeat: no-repeat;
+    	background-position: 50% 0%;
+	    max-width: 100%;
+		background-size: contain;
+	}
+	.map_text{
+    	color: #ffffff;
+    	font-size: 11px;
+		text-align: center;
+		margin: 50px auto 20px;
+	}
+	table{
+    	margin:10px auto;
+		padding: 0 5px;
+	}
+	th{
+		background-color: aqua;
+    	color: #ffffff;
+	    font-size: 12px;
+    	max-width: 100%;
+		margin: 10px 50px 0 10px;
+	    padding: 5px 15px;
+    	text-align: left;
 }
-table{
-    margin:50px auto 50px;
-}
-th{
-    color: #ffffff;
-    font-size: 18px;
-    width: 400px;
-    padding: 20px 20px 20px 200px;
-    text-align: left;
-}
-td{
-    color: #ffffff;
-    font-size: 18px;
-    width: 500px;
-    padding: 20px;
-}
-/* ============================================= */
+	td{
+		background-color: blueviolet;
+    	color: #ffffff;
+    	font-size: 12px;
+	    max-width: 100%;
+    	padding: 5px;
+	}
+	#map{
+		max-width: 100%;
+	}
+
 /* フッター */
 footer{
     background-color: #edc9e3;
